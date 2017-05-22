@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">BuildABurger</string>
+    <string-array name="patties">
+        <item>Beef</item>
+        <item>Grilled Chicken</item>
+        <item>Turkey</item>
+        <item>Salmon</item>
+        <item>Veggie</item>
+    </string-array>
+    <string name="Mushrooms">Sauteed Mushrooms</string>
+    <string name="Lettuce">Lettuce</string>
+    <string name="Tomatoes">Tomatoes</string>
+    <string name="Pickles">Pickles</string>
+    <string name="Mayo">Mayo</string>
+    <string name="Mustard">Mustard</string>
+    <string-array name="toppings">
+        <item>@string/Mushrooms</item>
+        <item>@string/Lettuce</item>
+        <item>@string/Tomatoes</item>
+        <item>@string/Pickles</item>
+        <item>@string/Mayo</item>
+        <item>@string/Mustard</item>
+    </string-array>
+    <string name="Wheat">Wheat</string>
+    <string name="White">White</string>
+    <string-array name="Buns">
+        <item>@string/White</item>
+        <item>@string/Wheat</item>
+    </string-array>
+    <integer-array name="patty_calories">
+        <item>240</item>
+        <item>180</item>
+        <item>190</item>
+        <item>95</item>
+        <item>80</item>
+    </integer-array>
+    <integer-array name="topping_calories">
+        <item>60</item>
+        <item>20</item>
+        <item>20</item>
+        <item>30</item>
+        <item>100</item>
+        <item>60</item>
+    </integer-array>
+    <integer-array name="bun_calories">
+        <item>140</item>
+        <item>100</item>
+    </integer-array>
+
+</resources>
